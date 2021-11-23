@@ -17,9 +17,9 @@ class Balde:
         else:
             return "não tem agua suficiente no balde"        
     
-   
+  
 balde1 = Balde()
-balde1.capacidade= 10
+balde1.capacidade= 8
 balde1.volume = 0
 print(balde1.encher(11))
 balde1.encher(10)
@@ -31,5 +31,5 @@ balde2 = Balde()
 balde2.capacidade=20
 balde2.volume=10
 print(balde2.encher(7))
-print(balde2.esvaziar(19))
+print(balde2.esvaziar(18))
 
